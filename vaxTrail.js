@@ -21,7 +21,13 @@ const vaxTrail = (array) => {
     }
   });
 
+  // Each array sort by even ages people
+  A.sort((a, b) => a.age - b.age);
+  B.sort((a, b) => a.age - b.age);
+  C.sort((a, b) => a.age - b.age);
+  D.sort((a, b) => a.age - b.age);
 
+  return { A, B, C, D };
 
 }
 
