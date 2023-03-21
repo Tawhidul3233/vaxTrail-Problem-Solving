@@ -6,7 +6,7 @@ const vaxTrail = (array) => {
   let C = [];
   let D = [];
 
-  // now  check conditions. This funcation Expects an array 
+  // now  check conditions.
   array.forEach(person => {
     if (person.temperature < 100) {
       if (person.age >= 20 && person.age <= 30) {
@@ -31,7 +31,13 @@ const vaxTrail = (array) => {
 
 }
 
-
+// const result = vaxTrail([
+//   { name: 'sunil', age: 21, temperature: 98 },
+//   { name: 'Biplap', age: 31, temperature: 98 },
+//   { name: 'juka', age: 70, temperature: 120 },
+//   { name: 'juka', age: 25, temperature: 100 },
+// ])
+// console.log(result)
 
 
 
